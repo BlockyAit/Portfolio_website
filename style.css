@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    font-size: 1.75rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+
+
+#about img {
+    object-fit: cover;
+    border: 3px solid #eee;
+    object-position: 65% 30%; /* Fine-tune the percentage to move the image as needed */
+}
+
+#projects .card-title {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 0.9rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.card {
+  background-color: rgb(196, 126, 101);
+}
