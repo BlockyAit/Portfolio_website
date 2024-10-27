@@ -16,7 +16,7 @@ const calculate = () => {
     let name = nameInput.value;
     let price = Number(startingBid.value);
 
-    if (!name || !price) {
+    if (!name || price === "") {
         alert("Please fill in both the Bride/Groom Name and Starting Bid.");
         return;
     }
